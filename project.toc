@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Problem definition}{3}{0}{1}
+\beamer@subsectionintoc {2}{2}{Related work}{5}{0}{1}
+\beamer@subsectionintoc {2}{3}{General approach}{6}{0}{1}
+\beamer@sectionintoc {3}{Method}{7}{0}{2}
+\beamer@subsectionintoc {3}{1}{Region Adjacency Graphs}{7}{0}{2}
+\beamer@subsectionintoc {3}{2}{Temporal RAG Tracking}{8}{0}{2}
+\beamer@subsectionintoc {3}{3}{Coherency score}{9}{0}{2}
+\beamer@subsectionintoc {3}{4}{Place Detection}{10}{0}{2}
+\beamer@subsectionintoc {3}{5}{Segments Summary Graphs}{11}{0}{2}
+\beamer@sectionintoc {4}{Experiments}{12}{0}{3}
+\beamer@sectionintoc {5}{Conclusion}{17}{0}{4}

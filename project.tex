@@ -1,0 +1,67 @@
+\documentclass{beamer}
+\usepackage{pgfpages}
+
+%\setbeameroption{show notes on second screen=right}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{beamerthemesplit}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{forest}
+\usepackage{pifont}
+\usepackage{multirow}
+%\usepackage{movie15}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}
+
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
+
+\title{Automated Place Detection Based on Coherent Segments}
+\author{Mahmut Demir and H. Isil Bozma}
+\institute{Intelligent Systems Laboratory \\
+Electrical and Electronics Engineering, Boğaziçi University, Istanbul, Turkey}
+\vspace{-1cm}
+
+%\date[ICCV]{ICCV 2015 International Conference on Computer Vision }
+\titlegraphic{\includegraphics[width=20mm]{img/conf_logo.png} \\ \includegraphics[width=6mm]{img/master/isllogo2.JPG}\hspace*{1cm}\includegraphics[width=30mm]{img/master/cover}\hspace*{1cm}\includegraphics[width=6mm]{img/master/bu2.JPG}}
+\begin{document}
+
+
+\frame{\titlepage}
+
+\section[Overview]{}
+\frame{\tableofcontents}
+
+\include{def}
+
+
+		%\multirow{2}{*}{{\textcolor{green}{\cmark}}} &  1) Improved localization error with  decreased denseness sensitivity \\
+		%& 2) No need for sequential imaging 
+		%\end{tabular}
+\input{intro}
+\input{rag}
+\input{tracking}
+\input{detection}
+\input{ssg}
+\input{experiments}
+\input{conclusion}
+
+
+%\frame
+%{
+%	\frametitle{Robotic Application}
+%	
+%	\begin{figure}[ht]
+%		\includemovie[
+%		poster,
+%		text={\small(Loading Circle-m-increase3.mp4)}
+%		]{6cm}{6cm}{./video/movie.mp4}
+%	\end{figure}
+%}          
+\end{document}
+
+    

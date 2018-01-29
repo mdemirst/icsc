@@ -1,0 +1,317 @@
+%DEF.TEX: DEFINITIONS HEADER FILE
+
+%GENERAL DEFINITIONS
+%-------------------
+\newcommand{\cspace}{\vspace{0.2in}}
+\newcommand{\beqn}{\begin{eqnarray*}}
+\newcommand{\eeqn}{\end{eqnarray*}}
+\newcommand{\defeq}{\stackrel{\triangle}{=}}
+\newcommand{\cbox}{\Box}
+
+%sets, vectors
+%-------------
+\newcommand{\cc}{c}
+\newcommand{\ce}{e}
+\newcommand{\ck}{k}
+\newcommand{\cp}{p}
+\newcommand{\cq}{q}
+
+
+\newcommand{\cK}{\mathcal K}
+\newcommand{\cS}{\mathcal S}
+\newcommand{\cM}{\mathbf M}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\cE}{\mathit E}
+\newcommand{\cX}{\mathcal X}
+\newcommand{\cI}{\mathcal I}
+\newcommand{\cC}{\mathcal C}
+\newcommand{\cN}{\mathcal N}
+\newcommand{\cV}{\mathcal V}
+\newcommand{\cA}{{\mathcal{A}}}
+\newcommand{\cF}{{\mathcal{F}}}
+\newcommand{\cD}{{\mathcal{D}}}
+
+
+
+
+\newcommand{\cb}{b}
+\newcommand{\cd}{d}
+\newcommand{\cg}{g}
+\newcommand{\crho}{\rho}
+\newcommand{\eps}{\varepsilon}
+
+
+
+\newcommand{\Ip}{\cI_{2 \cp}}
+
+\newcommand{\cT}{T}
+
+\newcommand{\ccr}{r} % \cr is reserved 
+\newcommand{\rp}{\ccr'}
+\newcommand{\rr}{\ccr \rp}
+\newcommand{\drr}{\cd_{\rr}}
+\newcommand{\drrh}{\hat{\cd}_{\rr}}
+\newcommand{\crr}{\cc_{\rr}}
+\newcommand{\cz}{z}
+\newcommand{\zp}{\cz'}
+\newcommand{\zz}{\cz \zp}
+\newcommand{\dzz}{\cd_{\zz}}
+\newcommand{\czz}{\cc_{\zz}}
+\newcommand{\dzzh}{\hat{\cd}_{\zz}}
+
+\newcommand{\boldN}{{\mathbb Z}^+}
+\newcommand{\boldR}{\mathbb{R}}
+\newcommand{\gamb}{(\cgamma^k+\cbeta)}
+
+%navigation function
+%-------------------
+\newcommand{\cdelta}{\delta}
+\newcommand{\csigma}{\sigma}
+\newcommand{\calpha}{\alpha}
+\newcommand{\cbeta}{\beta}
+\newcommand{\cgamma}{\gamma}
+\newcommand{\cphi}{\varphi}
+\newcommand{\hphi}{\hat{\cphi}}
+\newcommand{\dphi}{\nabla \cphi}
+\newcommand{\dhphi}{\nabla \hphi}
+\newcommand{\dgamma}{\nabla \cgamma}
+\newcommand{\dbeta}{\nabla \cbeta}
+\newcommand{\ddphi}{D^2 \cphi}
+\newcommand{\ddhphi}{D^2 \hat{\cphi}}
+\newcommand{\ddgamma}{D^2 \cgamma}
+\newcommand{\ddbeta}{D^2 \cbeta}
+\newcommand{\crit}[1]{{{\cC}_{#1}}}
+
+\newcommand{\conv}[1]{\left( \cI_2 \otimes \cc_{{#1}} \right)}
+\newcommand{\convT}[1]{\left( \cI_2 \otimes \cc_{{#1}}^T \right)}
+\newcommand{\conve}[1]{\left( \cI_2 \otimes \ce_{{#1}} \right)}
+\newcommand{\conveT}[1]{\left( \cI_2 \otimes \ce_{{#1}}^T \right)}
+\newcommand{\dbetac}[1]{\cd_{{#1}}^T \convT{{#1}}}
+
+%\newcommand{\ei}{\ce_i}
+\newcommand{\ej}{\ce_j}
+\newcommand{\en}{\ce_n}
+\newcommand{\el}{\ce_l}
+%\newcommand{\bi}{\cb_i}
+\newcommand{\bj}{\cb_j}
+\newcommand{\bl}{\cb_l}
+\newcommand{\bn}{\cb_n}
+%\newcommand{\bm}{\cb_m}
+\newcommand{\bz}{\cb_{\cz}}
+\newcommand{\gi}{\cg_i}
+\newcommand{\gj}{\cg_j}
+\newcommand{\gn}{\cg_n}
+\newcommand{\gl}{\cg_l}
+\newcommand{\dij}{\cd_{ij}}
+\newcommand{\dji}{\cd_{ji}}
+\newcommand{\dln}{\cd_{ln}}
+\newcommand{\dil}{\cd_{il}}
+\newcommand{\din}{\cd_{in}}
+\newcommand{\dli}{\cd_{li}}
+\newcommand{\dni}{\cd_{ni}}
+\newcommand{\gij}{\cg_{ij}}
+\newcommand{\gln}{\cg_{ln}}
+\newcommand{\cij}{\cc_{ij}}
+\newcommand{\cln}{\cc_{ln}}
+\newcommand{\betaij}{\cbeta_{ij}}
+\newcommand{\betaln}{\cbeta_{ln}}
+\newcommand{\betaoi}{\cbeta_{0i}}
+\newcommand{\betaoj}{\cbeta_{0j}}
+\newcommand{\betaol}{\cbeta_{0l}}
+\newcommand{\betaon}{\cbeta_{0n}}
+\newcommand{\alij}{\calpha_{ij}}
+\newcommand{\alln}{\calpha_{ln}}
+\newcommand{\alil}{\calpha_{il}}
+\newcommand{\alin}{\calpha_{in}}
+\newcommand{\alli}{\calpha_{li}}
+\newcommand{\alni}{\calpha_{ni}}
+\newcommand{\aloi}{\calpha_{0i}}
+\newcommand{\aloj}{\calpha_{0j}}
+\newcommand{\alon}{\calpha_{0n}}
+\newcommand{\alol}{\calpha_{0l}}
+\newcommand{\sigmaij}{\csigma_{ij}}
+\newcommand{\sigmaln}{\csigma_{ln}}
+\newcommand{\sigmaoi}{\csigma_{0i}}
+\newcommand{\sigmaoj}{\csigma_{0j}}
+\newcommand{\dbetaij}{\dbeta_{ij}}
+\newcommand{\dbetaln}{\dbeta_{ln}}
+\newcommand{\dbetaoi}{\dbeta_{0i}}
+\newcommand{\dbetaoj}{\dbeta_{0j}}
+\newcommand{\ddbetaij}{\ddbeta_{ij}}
+\newcommand{\ddbetaln}{\ddbeta_{ln}}
+\newcommand{\magbetaij}{\| \nabla \betaij  \|}
+\newcommand{\magbetaln}{\| \nabla \betaln  \|}
+
+%indices, summation, product
+%---------------------------
+\newcommand{\iinP}{i \in \cP}
+\newcommand{\kinK}{k \in \cK}
+\newcommand{\iinS}{i \in \cS}
+\newcommand{\ijinS}{i,j \in \cS}
+\newcommand{\jinP}{j \in \cP}
+\newcommand{\ninP}{n \in \cP}
+\newcommand{\ninS}{n \in \cS}
+\newcommand{\minP}{m \in \cP}
+\newcommand{\rinP}{r \in \cP}
+\newcommand{\ijinQ}{(i,j) \in \cQ}
+\newcommand{\lninQ}{(l,n) \in \cQ}
+\newcommand{\ijinQo}{(i,j) \in \Qo}
+\newcommand{\lninQo}{(l,n) \in \Qo}
+\newcommand{\prij}{\prod_{\ijinQ}}
+\newcommand{\prln}{\prod_{\lninQ}}
+\newcommand{\prijo}{\prod_{\ijinQo}}
+\newcommand{\prlno}{\prod_{\lninQo}}
+\newcommand{\pri}{\prod_{\iinP}}
+\newcommand{\prj}{\prod_{\jinP}}
+\newcommand{\sumi}{\sum_{\iinP}}
+\newcommand{\sumiS}{\sum_{\iinS}}
+\newcommand{\sumj}{\sum_{\jinP}}
+\newcommand{\sumn}{\sum_{\ninP}}
+\newcommand{\summ}{\sum_{\minP}}
+
+\newcommand{\sumij}{\sum_{\ijinQ}}
+\newcommand{\sumln}{\sum_{\lninQ}}
+\newcommand{\sumijln}{\sumij \sumln^{(l,n) \neq (i,j)}}
+\newcommand{\sumlnij}{\sumln \sumij^{(i,j) \neq (l,n)}}
+\newcommand{\sumijo}{\sum_{\ijinQo}}
+\newcommand{\sumlno}{\sum_{\lninQo}}
+\newcommand{\sumijlno}{\sumijo \sumlno^{(l,n) \neq (i,j)}}
+\newcommand{\sumlnijo}{\sumlno \sumijo^{(i,j) \neq (l,n)}}
+
+\newcommand{\delij}{\cdelta_{ij}}
+\newcommand{\delln}{\cdelta_{ln}}
+\newcommand{\delin}{\cdelta_{in}}
+\newcommand{\delil}{\cdelta_{il}}
+\newcommand{\delni}{\cdelta_{ni}}
+\newcommand{\delli}{\cdelta_{li}}
+\newcommand{\deltaij}{\cdelta^2_{ij}}
+\newcommand{\deltaln}{\cdelta^2_{ln}}
+\newcommand{\rhoo}{\crho_0}
+\newcommand{\rhoi}{\crho_i}
+\newcommand{\rhoj}{\crho_j}
+\newcommand{\rhol}{\crho_l}
+\newcommand{\rhon}{\crho_n}
+\newcommand{\rhooi}{\crho_{0i}}
+\newcommand{\rhooj}{\crho_{0j}}
+\newcommand{\rhool}{\crho_{0l}}
+\newcommand{\rhoon}{\crho_{0n}}
+\newcommand{\rhoij}{\crho_{ij}}
+\newcommand{\rholn}{\crho_{ln}}
+\newcommand{\rhomin}{\crho'}
+\newcommand{\rhomino}{\crho''}
+\newcommand{\rhomax}{\crho_{max}}
+\newcommand{\gammamax}{\cgamma_{max}}
+\newcommand{\forij}{\forall \ijinQ}
+\newcommand{\forln}{\forall \lninQ}
+\newcommand{\forijo}{\forall \ijinQo}
+\newcommand{\fori}{\forall \iinP}
+\newcommand{\fork}{\forall \kinK}
+\newcommand{\forj}{\forall \jinP}
+\newcommand{\forn}{\forall \ninP}
+\newcommand{\form}{\forall \minP}
+\newcommand{\forr}{\forall \rinP}
+\newcommand{\foriS}{\forall \iinS}
+
+%Partitioning of the free space
+%------------------------------
+\newcommand{\Fzero}{\cF_1(\eps)}
+\newcommand{\Fone}{\cF_0(\eps)}
+\newcommand{\Ftwo}{\cF_2(\eps)}
+
+%Outer Boundary
+%---------------
+\newcommand{\mbi}{\| \bi \|}
+\newcommand{\mgi}{\| \gi \|}
+
+
+%Hessian
+%-------
+\newcommand{\cL}{L}
+\newcommand{\Lo}{\cL_0}
+\newcommand{\Lone}{\cL_1}
+\newcommand{\Lij}{\cL_{ij}}
+\newcommand{\Loi}{\cL_{0i}}
+\newcommand{\Loj}{\cL_{0j}}
+\newcommand{\co}{o}
+\newcommand{\Qo}{\cQ^0}
+
+%Non-degeneracy
+%---------------
+\newcommand{\Lrr}{\cL_{\rr}}
+\newcommand{\deltarr}{\cdelta^2_{\rr}}
+\newcommand{\rhorr}{\crho_{\rr}}
+\newcommand{\betarr}{\cbeta_{\rr}}
+\newcommand{\cB}{B}
+\newcommand{\ctheta}{\theta}
+\newcommand{\cR}{R}
+\newcommand{\cRt}{\cR_{\ctheta}}
+\newcommand{\vr}{\drrh \otimes \ce_{\ccr}}
+\newcommand{\vrt}{\cRt \drrh \otimes \ce_{\ccr}}
+\newcommand{\costh}{\cos^2 \ctheta}
+
+%Polarity
+%---------
+
+\newcommand{\cs}{s}
+\newcommand{\Qp}{\cQ'}
+\newcommand{\Pp}{\cP'}
+\renewcommand{\Pi}{\cP_i}
+\newcommand{\Pj}{\cP_j}
+\newcommand{\bzp}{\cb_{\zp}}
+\newcommand{\Pz}{\cP_{\cz}}
+\newcommand{\Qz}{\cQ_{\cz}}
+\newcommand{\Qzp}{\Qz^*}
+\newcommand{\pz}{\cp_{\cz}}
+\newcommand{\iinPz}{i \in \Pz}
+\newcommand{\jinPz}{j \in \Pz}
+\newcommand{\linPz}{l \in \Pz}
+\newcommand{\ninPz}{n \in \Pz}
+\newcommand{\ijinQz}{(i,j) \in \Qz}
+\newcommand{\lninQz}{(l,n) \in \Qz}
+\newcommand{\sumiz}{\sum_{\iinPz}}
+\newcommand{\sumjz}{\sum_{\jinPz}}
+\newcommand{\sumlz}{\sum_{\linPz}}
+\newcommand{\sumnz}{\sum_{\ninPz}}
+\newcommand{\sumijz}{\sum_{\ijinQz}}
+\newcommand{\sumlnz}{\sum_{\lninQz}}
+\newcommand{\sumlnzp}{\sum_{\lninQz'}}
+\newcommand{\sumlnzpp}{\sum_{\lninQz''}}
+\newcommand{\PzP}{(i,j) \in \Qzp}
+\newcommand{\ccN}{N}
+\newcommand{\Neps}{\ccN}
+\newcommand{\cw}{w}
+\newcommand{\cm}{m}
+\newcommand{\cn}{n}
+\newcommand{\cx}{x}
+\newcommand{\cLambda}{\Lambda}
+\newcommand{\cJ}{J}
+\newcommand{\cG}{\bar{g}}
+\newcommand{\gz}{\cG_{\cz}}
+\newcommand{\cv}{v}
+\newcommand{\vz}{v_{\cz}}
+\newcommand{\vn}{\sum_{\ninP_{\cz}} \cJ ( \cb_n - \cG_{\cz} ) \otimes \ce_n}
+\newcommand{\cell}{r}
+\newcommand{\tw}{w}
+\newcommand{\ninPp}{n \in \Pp}
+\newcommand{\Sigmas}{\Sigma^+}
+\newcommand{\csig}{\sigma^+}
+\newcommand{\gija}{\|\gij\|}
+\newcommand{\glna}{\|\gln\|}
+\newcommand{\cDel}{\Delta}
+\newcommand{\cLam}{\Lambda}
+\newcommand{\Dz}{\cDel_{\cz}}
+\newcommand{\Lz}{\cLam_{\cz}}
+
+
+%Temporary variables
+%-------------------
+\newcommand{\ccw}{w}
+\newcommand{\ccu}{u}
+\newcommand{\ccv}{v}
+\newcommand{\ccy}{y}
+\newcommand{\ccx}{x}
+\newcommand{\cpsi}{\psi}
+
+
+
+
