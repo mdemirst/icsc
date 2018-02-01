@@ -31,15 +31,14 @@
 		\column{.99\textwidth}
 		\vspace{-0.5cm}
 		\begin{itemize}
-			\item Why appearance-based approach? 
+			\item Appearance-based approach
 			\begin{itemize}
-				\item Geometric or odometric data may not be avaiable
 				\item Suitable for scene content analysis 
+				\item Geometric or odometric data may not be avaiable
 			\end{itemize}
 			\item Challenges
 			\begin{itemize}
 				\item Appearance variability
-				\item Perceptual aliasing
 				\item Indiscriminate boundaries
 			\end{itemize}
 		\end{itemize}
@@ -58,22 +57,43 @@
 		\begin{itemize}
 			\item Related work
 			\begin{itemize}
-				\item Partioning of incoming sensory data
+				\item Partioning of incoming sensory data based on similarity
 				\item Clustering
 				\item Feature types:
 				\begin{itemize}
-					\item Global: Intensity, Histograms, Optical Flow, GIST \textcolor{red}{\xmark} ~Sensitive
+					\item Global: Histograms, Census Transform, GIST \textcolor{red}{\xmark} ~Sensitive
 					\item Local: SIFT, SURF \textcolor{red}{\xmark} ~Low level, Matching
 					\item Hybrid: BoW, Bubble Space \textcolor{red}{\xmark} ~Low level
 				\end{itemize}
-			\item Identifying transition regions (i.e. doors, passages, corridors) \textcolor{red}{\xmark} ~Fails if transitions are not obvious 
+			\item Detecting transition regions (i.e. doors, passages, corridors) \textcolor{red}{\xmark} ~Fails if transitions are not obvious 
 				
 				
 			\end{itemize}
-
-			\item Contribution:
+			
+		\end{itemize}
+	\end{columns}
+}
+\subsection{Related work}
+\frame
+{
+	\frametitle{Introduction}
+	
+	\begin{columns}[t,onlytextwidth]
+		\hspace*{-1cm}
+		
+		\column{.99\textwidth}
+		\vspace{-0.5cm}
+		\begin{itemize}
+			\item Proposed approach
 			\begin{itemize}
-				\item Content based place detection
+				\item Visual segments
+				\item Smooth body or head motion assumption
+				\item Spatio-temporal coherence of visual segments
+			\end{itemize}
+			
+			\item Advantages:
+			\begin{itemize}
+				\item More stable features
 				\item Segments Summary Graphs representation
 			\end{itemize}
 			

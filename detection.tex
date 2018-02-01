@@ -8,7 +8,7 @@
 	\begin{itemize}
 		\small
 		\item Coherency over temporal window 
-		\item Parameters:
+		\item Factors:
 			\begin{itemize}
 				\item $\tau_w$ - window size
 				\item \# appearing nodes
@@ -29,14 +29,14 @@
 	\varphi^k &= 1 - \sum\limits_{l=k-\tau_w}^{k}\sum\limits_{i=1}^{\lvert n^l \rvert}\rho^{l}_i (a^{l}_i + b^{l}_i) \label{eq:incoherency_score}	\end{align}
 	where
 	\begin{align}
-	a^l_i &= \begin{cases}
-	1 &\text{if }	M_{li}>0, \, M_{l-1,i}=0 \\
-	0 &\text{otherwise}
-	\end{cases}  \label{eq:a}	\\
-	b^l_i &= \begin{cases}
-	1 &\text{if }	M_{li}=0,  M_{l-1,i}>0 \\
-	0 &\text{otherwise}
-	\end{cases}  \label{eq:b}	\\
+%	a^l_i &= \begin{cases}
+%	1 &\text{if }	M_{li}>0, \, M_{l-1,i}=0 \\
+%	0 &\text{otherwise}
+%	\end{cases}  \label{eq:a}	\\
+%	b^l_i &= \begin{cases}
+%	1 &\text{if }	M_{li}=0,  M_{l-1,i}>0 \\
+%	0 &\text{otherwise}
+%	\end{cases}  \label{eq:b}	\\
 	\rho^l_i &\propto s_3(N^l_i) 
 	\times \sum\limits_{k=l-{\tau_w}}^{l} M_{ki}>0 \label{eq:rho}									
 	\end{align}

@@ -1,13 +1,14 @@
-\beamer@endinputifotherversion {3.12pt}
+\beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {2}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {2}{1}{Problem definition}{3}{0}{1}
 \beamer@subsectionintoc {2}{2}{Related work}{5}{0}{1}
-\beamer@subsectionintoc {2}{3}{General approach}{6}{0}{1}
-\beamer@sectionintoc {3}{Method}{7}{0}{2}
-\beamer@subsectionintoc {3}{1}{Region Adjacency Graphs}{7}{0}{2}
-\beamer@subsectionintoc {3}{2}{Temporal RAG Tracking}{8}{0}{2}
-\beamer@subsectionintoc {3}{3}{Coherency score}{9}{0}{2}
-\beamer@subsectionintoc {3}{4}{Place Detection}{10}{0}{2}
-\beamer@subsectionintoc {3}{5}{Segments Summary Graphs}{11}{0}{2}
-\beamer@sectionintoc {4}{Experiments}{12}{0}{3}
-\beamer@sectionintoc {5}{Conclusion}{16}{0}{4}
+\beamer@subsectionintoc {2}{3}{Related work}{6}{0}{1}
+\beamer@subsectionintoc {2}{4}{General approach}{7}{0}{1}
+\beamer@sectionintoc {3}{Method}{8}{0}{2}
+\beamer@subsectionintoc {3}{1}{Region Adjacency Graphs}{8}{0}{2}
+\beamer@subsectionintoc {3}{2}{Temporal RAG Tracking}{9}{0}{2}
+\beamer@subsectionintoc {3}{3}{Coherency score}{10}{0}{2}
+\beamer@subsectionintoc {3}{4}{Place Detection}{11}{0}{2}
+\beamer@subsectionintoc {3}{5}{Segments Summary Graphs}{12}{0}{2}
+\beamer@sectionintoc {4}{Experiments}{13}{0}{3}
+\beamer@sectionintoc {5}{Conclusion}{15}{0}{4}

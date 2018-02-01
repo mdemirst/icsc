@@ -1,12 +1,13 @@
 \BOOKMARK [2][]{Outline0.2}{Introduction}{}% 1
 \BOOKMARK [3][]{Outline0.2.1.3}{Problem definition}{Outline0.2}% 2
 \BOOKMARK [3][]{Outline0.2.2.5}{Related work}{Outline0.2}% 3
-\BOOKMARK [3][]{Outline0.2.3.6}{General approach}{Outline0.2}% 4
-\BOOKMARK [2][]{Outline0.3}{Method}{}% 5
-\BOOKMARK [3][]{Outline0.3.1.7}{Region Adjacency Graphs}{Outline0.3}% 6
-\BOOKMARK [3][]{Outline0.3.2.8}{Temporal RAG Tracking}{Outline0.3}% 7
-\BOOKMARK [3][]{Outline0.3.3.9}{Coherency score}{Outline0.3}% 8
-\BOOKMARK [3][]{Outline0.3.4.10}{Place Detection}{Outline0.3}% 9
-\BOOKMARK [3][]{Outline0.3.5.11}{Segments Summary Graphs}{Outline0.3}% 10
-\BOOKMARK [2][]{Outline0.4}{Experiments}{}% 11
-\BOOKMARK [2][]{Outline0.5}{Conclusion}{}% 12
+\BOOKMARK [3][]{Outline0.2.3.6}{Related work}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.4.7}{General approach}{Outline0.2}% 5
+\BOOKMARK [2][]{Outline0.3}{Method}{}% 6
+\BOOKMARK [3][]{Outline0.3.1.8}{Region Adjacency Graphs}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.2.9}{Temporal RAG Tracking}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.3.10}{Coherency score}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.4.11}{Place Detection}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.5.12}{Segments Summary Graphs}{Outline0.3}% 11
+\BOOKMARK [2][]{Outline0.4}{Experiments}{}% 12
+\BOOKMARK [2][]{Outline0.5}{Conclusion}{}% 13
